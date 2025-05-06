@@ -183,6 +183,12 @@ justify-content: end;
 .images-part{
     display: flex;
 }
+.singl-image{
+    width: 688;
+height: 223;
+
+
+}
 
 
 
