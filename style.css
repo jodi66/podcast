@@ -203,7 +203,7 @@ background-repeat: no-repeat;
 
 
 @media (max-width: 768px) {
-    header,.text-part {
+    header,.text-part,.trendy-title,.trendy-text {
         width: fit-content; 
         font-size: 15px;
     }
