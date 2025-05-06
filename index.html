@@ -5,29 +5,30 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>landing page</title>
 </head>
 <body>
-    <nav>
-        <img src="./assets/Logo.png" class="logo" alt=""/>
-        <div class="nav-links">
-            <a href="#" onclick="changeColor(this)">Discover</a>
-            <a href="#" onclick="changeColor(this)">Community</a>
-            <a href="#" onclick="changeColor(this)">Library</a>
-            <a href="#" onclick="changeColor(this)">About</a>
-            <a href="#" onclick="changeColor(this)">Contact</a>
-        </div>
-        
-        <div id="nav-end">
-            <div id="symbols-search" style="margin-right: 1rem;">
-                <img src="./assets/symbols_search.png" alt="">
-            </div>
-            <button class="login-btn">Log in</button>
-        </div>
-    </nav>
     <header>
+        <nav>
+            <img src="./assets/Logo.png" class="logo" alt=""/>
+            <div class="nav-links">
+                <a href="#" onclick="changeColor(this)">Discover</a>
+                <a href="#" onclick="changeColor(this)">Community</a>
+                <a href="#" onclick="changeColor(this)">Library</a>
+                <a href="#" onclick="changeColor(this)">About</a>
+                <a href="#" onclick="changeColor(this)">Contact</a>
+            </div>
+            
+            <div id="nav-end">
+                <div id="symbols-search" style="margin-right: 1rem;">
+                    <img src="./assets/symbols_search.png" alt="">
+                </div>
+                <button class="login-btn">Log in</button>
+            </div>
+        </nav>
             <div class="header-text">
                     <img id="header-image" src="./assets/image1.png" alt="">
                     <div class="text-part">
@@ -79,7 +80,7 @@ Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</pre>
             </div>
     </header>
     <main>
-        <div>
+        <div class="top-picks">
             <div class="part-control">
                 <h3 style="font-weight: bold;">Trendy Shows</h3>
                 <h3 style="font-weight: bold;cursor: pointer;; color: var(--main);">More</h3>
@@ -172,7 +173,7 @@ Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</pre>
             </div>
         </div>
         
-        <div class="images-part">
+        <!-- <div class="images-part">
             <div class="singl-image" style="max-width: 656px; height: fit-content;">
                 <img  src="./assets/Rectangle 103.png" alt="">
             </div>
@@ -180,7 +181,7 @@ Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</pre>
                 <img  src="./assets/Rectangle 18.png" alt="">
 
             </div>
-        </div>
+        </div> -->
     </main>
     <script src="app.js"></script>
 </body>
