@@ -180,11 +180,26 @@ justify-content: end;
     display: flex;
     justify-content: space-between;
 }
-.images-part{
+#images-part{
     display: flex;
+    gap: 2px;
 }
-
-
+#singl-image1{
+    width: 688px;
+    height: 223px;
+background-image: url('./assets/Rectangle 103.png');
+background-size:contain;
+background-position:right;
+background-repeat: no-repeat;
+}
+#singl-image2{
+    width: 688px;
+    height: 223px;
+    background-image: url('./assets/Rectangle 18.png');
+    background-size:contain;
+background-position:right;
+background-repeat: no-repeat;
+}
 
 
 
