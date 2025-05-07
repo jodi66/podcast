@@ -276,6 +276,12 @@ margin: 0.8rem auto 0.8rem auto;
     }
 }
 
+@media (max-width: 520px) {
+    .image-section {
+        display: none;
+    }
+}
+
 @media (max-width: 900px) {
     header,.text-part,.top-picks,.trendy-shows {
         width:100%; 
