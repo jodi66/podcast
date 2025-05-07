@@ -163,6 +163,7 @@ justify-content: end;
     display: grid;
     grid-template-columns: repeat(3,54%);
     overflow-x: scroll;
+    overflow-wrap: break-word;
 
 }
 .small-image{
@@ -224,6 +225,7 @@ align-content: center;
     color: var(--main);
 }
 .email-button{
+    cursor: pointer;
 margin: 0.8rem auto 0.8rem auto;
     border: 1px solid var(--main);
     border-radius: 0.2rem;
@@ -238,7 +240,7 @@ margin: 0.8rem auto 0.8rem auto;
 
 
 
-@media (max-width: 820px) {
+@media (max-width: 768px) {
     header,.text-part {
         width: fit-content; 
         font-size: 15px;
@@ -275,15 +277,18 @@ margin: 0.8rem auto 0.8rem auto;
 }
 
 @media (max-width: 900px) {
-    header,.text-part {
-        width: fit-content; 
+    header,.text-part,.top-picks,.trendy-shows {
+        width:100%; 
+        font-size: 17px;
+        padding-right: 0;
+        margin-right: 0;
     }
     .nav-links a{
         margin: 0.5rem;
     }
     .bullet{
-        width: 12px;
-        height: 12px;
+        width: 10px;
+        height: 10px;
     }
     .text-part{
         margin-left: 0.5rem;
