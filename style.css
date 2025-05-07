@@ -277,8 +277,8 @@ margin: 0.8rem auto 0.8rem auto;
 }
 
 @media (max-width: 520px) {
-    .image-section {
-        display: none;
+    .image-section{
+        visibility: hidden;
     }
 }
 
