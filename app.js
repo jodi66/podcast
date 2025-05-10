@@ -70,6 +70,12 @@ window.onload = function() {
         if (loginBtn) {
             loginBtn.remove();
             document.getElementById('btn-image-replace').innerHTML = `<p class="recoloring">Anna Liebert</p> <img src="./assets/Ellipse 12.png" alt="">`
+    let toinfoPage = document.getElementById('btn-image-replace')
+    toinfoPage.addEventListener('click',(e)=>{
+    window.location.href = './personalInfo.html'
+})
+
+    
         }
         sessionStorage.removeItem('fromLogin'); 
     }
@@ -97,3 +103,4 @@ document.getElementById("contact-num").addEventListener("input", function (event
 
     event.target.value = inputValue;
 });
+
