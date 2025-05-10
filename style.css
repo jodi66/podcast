@@ -350,15 +350,12 @@ input.num-verification:focus{
 
 .info-fill{
     width: 37%;
-    height: 100%;
+    height: fit-content;
     background-color: white;
     position: absolute;
     top: 0;
     left: 32%;
 }
-
-
-
 
 
 
@@ -374,6 +371,8 @@ input.num-verification:focus{
     height: 100%;
     object-fit: cover;
 }
+
+
 .audio-books{
     display: grid;
     grid-template-rows: repeat(2,7rem);
@@ -464,6 +463,23 @@ footer{
 
 
 @media (max-width: 768px) {
+    .info-fill{
+        display: block;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+        height: fit-content;
+    }
+    .scrolling-container{
+        margin: 0;
+        padding: 0;
+        display: none;
+        background-color: white;
+        animation: none;
+        width: 0;
+        height: 0;
+    }
     .parent-verification{
         display: block;
         align-items: center;
