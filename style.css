@@ -464,7 +464,11 @@ footer{
 
 
 @media (max-width: 768px) {
-
+    .parent-verification{
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
     #singl-image1,#singl-image2{
         width: 100%;
         background-size: contain;
