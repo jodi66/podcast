@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./assets/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community</title>
+</head>
+<body>
+        <nav>
+            <img src="./assets/Logo.png" class="logo" alt=""/>
+            <div class="nav-links">
+                <a href="#" onclick="changeColor(this)">Discover</a>
+                <a href="#" onclick="changeColor(this)">Community</a>
+                <a href="#" onclick="changeColor(this)">Library</a>
+                <a href="#" onclick="changeColor(this)">About</a>
+                <a href="#" onclick="changeColor(this)">Contact</a>
+            </div>
+            
+            <div id="nav-end">
+                <div id="symbols-search" style="margin-right: 1rem;">
+                    <img src="./assets/symbols_search.png" alt="">
+                </div>
+                <div id="btn-image-replace" style="display: flex; align-items: center; gap: 1rem;cursor: pointer;">
+                    <button  id="login-btn" class="login-btn">Log in</button>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <div class="next-nav" id="images-part">
+                <div id="image1-next-nav"></div>
+                <div id="image2-next-nav"></div>
+            </div>
+        </main>
+</body>
+<script src="app.js"></script>
+</html>
