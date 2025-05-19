@@ -511,19 +511,42 @@ background-repeat: no-repeat;
     
 
 }
-
-.text-wrap{
-      word-wrap: break-word;
-  overflow-wrap: break-word;
-  white-space: normal;
+#list-nav{
+    width: 20px; 
+    height: 20px; 
+    filter: invert(1); 
+    display: none;
+    margin: 1rem;
+    cursor: pointer;
 }
 
 
 
 
-
-
 @media (max-width: 768px) {
+    #list-nav{
+        display: block;
+    }
+        .nav-links {
+        flex-direction: column; /* Stack items vertically */
+        position: absolute;
+        top: 6rem;
+        left: 0;
+        width: 100%;
+        background: var(--backMain);
+        border-radius: 0 0 20px 20px;
+        display: none; /* Initially hidden */
+    }
+
+    .nav-links a {
+        display: block;
+        padding: 1rem;
+        text-align: center;
+    }
+    
+    .nav-links.active {
+        display: flex;
+    }
     .next-nav{
         height: 14rem;
         margin-bottom: 7rem;

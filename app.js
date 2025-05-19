@@ -90,17 +90,20 @@ function previewImage(event) {
         reader.readAsDataURL(file);
     }
 }
-document.getElementById("contact-num").addEventListener("input", function (event) {
-    let inputValue = event.target.value.replace(`${/\D/g}`, ""); 
+// document.getElementById("contact-num").addEventListener("input", function (event) {
+//     let inputValue = event.target.value.replace(`${/\D/g}`, ""); 
 
-    // Ensure it starts with "09"
-    if (!inputValue.startsWith("09")) {
-        inputValue = "09"; // Force the input to begin with 09
-    }
+//     // Ensure it starts with "09"
+//     if (!inputValue.startsWith("09")) {
+//         inputValue = "09"; // Force the input to begin with 09
+//     }
 
-    // Limit to exactly 10 digits
-    inputValue = inputValue.slice(0, 10);
+//     // Limit to exactly 10 digits
+//     inputValue = inputValue.slice(0, 10);
 
-    event.target.value = inputValue;
+//     event.target.value = inputValue;
+// });
+
+document.getElementById("list-nav").addEventListener("click", function () {
+    document.querySelector(".nav-links").classList.toggle("active");
 });
-
